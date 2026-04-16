@@ -32,7 +32,7 @@ Transform your job search with AI-powered resume tailoring that goes beyond simp
 ## Installation
 
 ```bash
-git clone https://github.com/varunr89/resume-tailoring-skill.git ~/.claude/skills/resume-tailoring
+git clone https://github.com/sidjain-jecrc/claude-skill-resume-tailor.git ~/.claude/skills/resume-tailoring
 ```
 
 ## Usage
@@ -70,9 +70,9 @@ The skill guides you through:
 
 ## Support & Documentation
 
-- **GitHub:** https://github.com/varunr89/resume-tailoring-skill
+- **GitHub:** https://github.com/sidjain-jecrc/claude-skill-resume-tailor
 - **Documentation:** See README.md for full documentation
-- **Issues:** https://github.com/varunr89/resume-tailoring-skill/issues
+- **Issues:** https://github.com/sidjain-jecrc/claude-skill-resume-tailor/issues
 
 ## License
 

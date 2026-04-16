@@ -2,7 +2,7 @@
 
 ## ✅ Repository Setup Complete!
 
-**GitHub Repository:** https://github.com/varunr89/resume-tailoring-skill
+**GitHub Repository:** https://github.com/sidjain-jecrc/claude-skill-resume-tailor
 
 **Status:**
 - ✅ Code pushed to GitHub
@@ -19,11 +19,11 @@
 
 **Skill Name:** Resume Tailoring Skill
 
-**Repository URL:** https://github.com/varunr89/resume-tailoring-skill
+**Repository URL:** https://github.com/sidjain-jecrc/claude-skill-resume-tailor
 
 **Installation Command:**
 ```bash
-git clone https://github.com/varunr89/resume-tailoring-skill.git ~/.claude/skills/resume-tailoring
+git clone https://github.com/sidjain-jecrc/claude-skill-resume-tailor.git ~/.claude/skills/resume-tailoring
 ```
 
 **Category:** Productivity / Career Development
@@ -111,7 +111,7 @@ The skill will automatically:
    - (Link will be provided by Anthropic)
 
 2. **Fill in the form:**
-   - Repository URL: `https://github.com/varunr89/resume-tailoring-skill`
+   - Repository URL: `https://github.com/sidjain-jecrc/claude-skill-resume-tailor`
    - Category: Productivity / Career Development
    - Tags: resume, job-search, career, recruitment, cv, job-application
    - Short description: (see above)
@@ -130,7 +130,7 @@ The skill will automatically:
 Once approved, users can install your skill with:
 
 ```bash
-git clone https://github.com/varunr89/resume-tailoring-skill.git ~/.claude/skills/resume-tailoring
+git clone https://github.com/sidjain-jecrc/claude-skill-resume-tailor.git ~/.claude/skills/resume-tailoring
 ```
 
 Or through the Claude Code skills marketplace interface.
@@ -139,8 +139,8 @@ Or through the Claude Code skills marketplace interface.
 
 ### Maintenance
 
-**GitHub Issues:** https://github.com/varunr89/resume-tailoring-skill/issues
-**GitHub Discussions:** https://github.com/varunr89/resume-tailoring-skill/discussions
+**GitHub Issues:** https://github.com/sidjain-jecrc/claude-skill-resume-tailor/issues
+**GitHub Discussions:** https://github.com/sidjain-jecrc/claude-skill-resume-tailor/discussions
 
 Monitor these for user feedback and bug reports.
 
@@ -160,7 +160,7 @@ Monitor these for user feedback and bug reports.
 
 Your capabilities should get you the job, not your resume writing skills.
 
-https://github.com/varunr89/resume-tailoring-skill
+https://github.com/sidjain-jecrc/claude-skill-resume-tailor
 #ClaudeCode #JobSearch #AI
 ```
 
@@ -176,7 +176,7 @@ This AI-powered tool helps job seekers create tailored resumes by:
 
 Built on the principle of truth-preserving optimization - never fabricating experience, but intelligently reframing what you've actually done.
 
-Open source and free: https://github.com/varunr89/resume-tailoring-skill
+Open source and free: https://github.com/sidjain-jecrc/claude-skill-resume-tailor
 
 #AI #JobSearch #CareerDevelopment #OpenSource
 ```
@@ -195,7 +195,7 @@ Open source and free: https://github.com/varunr89/resume-tailoring-skill
 
 ## Support & Contact
 
-**GitHub:** https://github.com/varunr89/resume-tailoring-skill
+**GitHub:** https://github.com/sidjain-jecrc/claude-skill-resume-tailor
 **Author:** Siddharth Jain
 **License:** MIT
 

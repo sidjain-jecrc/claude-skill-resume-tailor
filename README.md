@@ -35,14 +35,14 @@ This Claude Code skill generates high-quality, tailored resumes optimized for sp
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/varunr89/resume-tailoring-skill.git ~/.claude/skills/resume-tailoring
+   git clone https://github.com/sidjain-jecrc/claude-skill-resume-tailor.git ~/.claude/skills/resume-tailoring
    ```
 
 2. **Verify installation:**
    ```bash
    ls ~/.claude/skills/resume-tailoring
    ```
-   You should see: `skills/`, `README.md`, `LICENSE`, `.claude-plugin/`, `docs/`
+   You should see: `skills/`, `docs/`, `.claude-plugin/`, `README.md`, `LICENSE`, `MARKETPLACE.md`, `SUBMISSION_GUIDE.md`
 
 3. **Restart Claude Code** (if already running)
 
@@ -132,35 +132,40 @@ Add your existing resumes in markdown format:
 - 11-27% faster than processing jobs sequentially
 - Same quality as single-job mode
 
-## Files
+## Project Structure
 
-### Core Implementation (all in `skills/resume-tailoring/`)
-- `SKILL.md` - Main skill definition with single-job workflow (259 lines)
-- `research-prompts.md` - Company/role research templates
-- `matching-strategies.md` - Content scoring algorithms
-- `branching-questions.md` - Experience discovery patterns
-- `multi-job-workflow.md` - Multi-job overview, intake, and gap analysis
-- `multi-job-discovery.md` - Shared experience discovery for batches
-- `multi-job-processing.md` - Per-job processing and batch finalization
-- `multi-job-advanced.md` - Incremental batches and error handling
-- `error-handling.md` - Edge cases and graceful degradation
-- `usage-examples.md` - Detailed workflow examples
-- `testing-guidelines.md` - Manual testing checklist
-
-### Documentation
-- `README.md` - This file
-- `MARKETPLACE.md` - Marketplace listing information
-- `SUBMISSION_GUIDE.md` - Skill submission guidelines
-
-### Supporting Documentation (`docs/`)
-- `docs/schemas/` - Data structure schemas for batch processing
-  - `batch-state-schema.md` - Batch state tracking structure
-  - `job-schema.md` - Job object schema
-- `docs/plans/` - Design documents and implementation plans
-  - `2025-11-04-multi-job-resume-tailoring-design.md` - Multi-job feature design
-  - `2025-11-04-multi-job-implementation-summary.md` - Implementation summary
-- `docs/testing/` - Testing checklists
-  - `multi-job-test-checklist.md` - Comprehensive multi-job test cases
+```
+claude-skill-resume-tailor/
+├── .claude-plugin/
+│   └── plugin.json                    # Plugin manifest (name, version, author)
+├── skills/
+│   └── resume-tailoring/              # Skill implementation
+│       ├── SKILL.md                   # Main skill definition (multi-job detection + single-job workflow)
+│       ├── research-prompts.md        # Company/role research templates
+│       ├── matching-strategies.md     # Content scoring algorithms
+│       ├── branching-questions.md     # Experience discovery patterns
+│       ├── multi-job-workflow.md      # Multi-job overview, intake, and gap analysis
+│       ├── multi-job-discovery.md     # Shared experience discovery for batches
+│       ├── multi-job-processing.md    # Per-job processing and batch finalization
+│       ├── multi-job-advanced.md      # Incremental batches and error handling
+│       ├── error-handling.md          # Edge cases and graceful degradation
+│       ├── usage-examples.md          # Detailed workflow examples
+│       └── testing-guidelines.md      # Manual testing checklist
+├── docs/
+│   ├── schemas/
+│   │   ├── batch-state-schema.md      # Batch state tracking structure
+│   │   └── job-schema.md              # Job object schema
+│   ├── plans/
+│   │   ├── 2025-11-04-multi-job-resume-tailoring-design.md
+│   │   └── 2025-11-04-multi-job-implementation-summary.md
+│   └── testing/
+│       └── multi-job-test-checklist.md
+├── README.md                          # This file
+├── MARKETPLACE.md                     # Marketplace listing information
+├── SUBMISSION_GUIDE.md                # Skill submission guidelines
+├── LICENSE
+└── .gitignore
+```
 
 ## Key Features
 
@@ -358,7 +363,7 @@ RESULT:
 ## Testing
 
 ### Single-Job Tests
-See Testing Guidelines section in SKILL.md (lines 1244-1320)
+See `skills/resume-tailoring/testing-guidelines.md`
 
 **Key test scenarios:**
 - Happy path (full workflow)
@@ -383,7 +388,7 @@ See `docs/testing/multi-job-test-checklist.md` for comprehensive test cases
 **Run tests:**
 ```bash
 cd ~/.claude/skills/resume-tailoring
-# Single-job: Follow test procedures in SKILL.md Testing Guidelines section
+# Single-job: Follow skills/resume-tailoring/testing-guidelines.md
 # Multi-job: Follow docs/testing/multi-job-test-checklist.md
 ```
 
@@ -402,7 +407,7 @@ Contributions are welcome! Please follow these guidelines:
 6. **Open a Pull Request**
 
 **Before submitting:**
-- Run regression tests (see Testing section in SKILL.md)
+- Run regression tests (see `skills/resume-tailoring/testing-guidelines.md`)
 - Ensure all phases work end-to-end
 - Update documentation
 
@@ -438,8 +443,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Support
 
-- **Issues:** [GitHub Issues](https://github.com/varunr89/resume-tailoring-skill/issues)
-- **Discussions:** [GitHub Discussions](https://github.com/varunr89/resume-tailoring-skill/discussions)
+- **Issues:** [GitHub Issues](https://github.com/sidjain-jecrc/claude-skill-resume-tailor/issues)
+- **Discussions:** [GitHub Discussions](https://github.com/sidjain-jecrc/claude-skill-resume-tailor/discussions)
 
 ## Roadmap
 
