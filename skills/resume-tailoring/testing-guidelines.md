@@ -77,7 +77,7 @@ After any SKILL.md changes:
 
 ## Multi-Job Testing
 
-See `docs/testing/multi-job-test-checklist.md` for comprehensive multi-job test cases covering:
+See `multi-job-test-checklist.md` for comprehensive multi-job test cases covering:
 - Happy path (3 similar jobs)
 - Diverse jobs (low overlap detection)
 - Incremental batch addition

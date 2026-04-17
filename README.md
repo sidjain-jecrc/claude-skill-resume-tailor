@@ -42,7 +42,7 @@ This Claude Code skill generates high-quality, tailored resumes optimized for sp
    ```bash
    ls ~/.claude/skills/resume-tailoring
    ```
-   You should see: `skills/`, `docs/`, `.claude-plugin/`, `README.md`, `LICENSE`, `MARKETPLACE.md`, `SUBMISSION_GUIDE.md`
+   You should see: `skills/`, `.claude-plugin/`, `README.md`, `LICENSE`, `MARKETPLACE.md`, `SUBMISSION_GUIDE.md`
 
 3. **Restart Claude Code** (if already running)
 
@@ -150,16 +150,8 @@ claude-skill-resume-tailor/
 │       ├── multi-job-advanced.md      # Incremental batches and error handling
 │       ├── error-handling.md          # Edge cases and graceful degradation
 │       ├── usage-examples.md          # Detailed workflow examples
-│       └── testing-guidelines.md      # Manual testing checklist
-├── docs/
-│   ├── schemas/
-│   │   ├── batch-state-schema.md      # Batch state tracking structure
-│   │   └── job-schema.md              # Job object schema
-│   ├── plans/
-│   │   ├── 2025-11-04-multi-job-resume-tailoring-design.md
-│   │   └── 2025-11-04-multi-job-implementation-summary.md
-│   └── testing/
-│       └── multi-job-test-checklist.md
+│       ├── testing-guidelines.md      # Manual testing checklist
+│       └── multi-job-test-checklist.md # Comprehensive multi-job test cases
 ├── README.md                          # This file
 ├── MARKETPLACE.md                     # Marketplace listing information
 ├── SUBMISSION_GUIDE.md                # Skill submission guidelines
@@ -374,7 +366,7 @@ See `skills/resume-tailoring/testing-guidelines.md`
 - Multi-format generation
 
 ### Multi-Job Tests (NEW!)
-See `docs/testing/multi-job-test-checklist.md` for comprehensive test cases
+See `skills/resume-tailoring/multi-job-test-checklist.md` for comprehensive test cases
 
 **Key multi-job scenarios:**
 - Happy path (3 similar jobs)
@@ -389,7 +381,7 @@ See `docs/testing/multi-job-test-checklist.md` for comprehensive test cases
 ```bash
 cd ~/.claude/skills/resume-tailoring
 # Single-job: Follow skills/resume-tailoring/testing-guidelines.md
-# Multi-job: Follow docs/testing/multi-job-test-checklist.md
+# Multi-job: Follow skills/resume-tailoring/multi-job-test-checklist.md
 ```
 
 ## Contributing
